@@ -17,8 +17,8 @@ the system used for this test practice is the ubuntu 24.04 LTS
 
 > in order to install openSCAP on a ubuntu 22.04 system we use :
 >
-> `sudo apt update && sudo apt install libopenscap8 ssg-* `(the wildcard is for convinience)
->> some systems might not have the libopenscap8 package instead we install:
+> `sudo apt update && sudo apt install openscap-scanner `
+>> some systems might not have the package , instead we install:
 >>
 >>`sudo apt install libopenscap25t64` (or other reffered packages)
 >
