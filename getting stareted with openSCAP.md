@@ -19,6 +19,8 @@ OpenSCAP uses `scap` which is a line of specifications maintained by the **NIST*
 >To install OpenSCAP on Red Hat Enterprise Linux 8 and newer, on CentOS 8 and newer or on Fedora use the following command:
 >
 > `$ dnf install openscap-scanner`
+>To install OpenSCAP on ubuntu or debian:
+> `$ sudo apt update && sudo apt install openscap-scanner`
 >> for other systems refer to : <https://static.open-scap.org/openscap-1.3/oscap_user_manual.html>
 
 After installing, all SCAP Security Guide security policies are in directory `/usr/share/xml/scap/ssg/content/`
