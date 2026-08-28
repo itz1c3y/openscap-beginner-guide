@@ -71,6 +71,7 @@ for this report i will be using the **Title: CIS Ubuntu Linux 24.04 LTS Benchmar
 ### profile evaluation
 in order to evaluate our system against the selected profile we run the following command that generates two report files 
 >`sudo oscap xccdf eval --profile -hxccdf_org.ssgproject.content_profile_cis_level1_workstation -results ~/ssg-results.xml --report ~/ssg-report.html ssg-content/scap-security-guide-0.1.81/ssg-ubuntu2404-ds.xml`
+>the last part of this command can be replaced with the path to your data stream file that i have also put in the req folder in this repo
 
 one is an ssg-results.xml file and a very nice ***ss-results.html*** file that we will be using from now on 
 ![initial result](./images/ssg-result.png)
